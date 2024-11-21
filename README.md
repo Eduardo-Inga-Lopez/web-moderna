@@ -75,3 +75,7 @@ Define reglas específicas para analizar el código:
 - **`"semi": ["error", "always"]`**: Obliga a terminar las sentencias con punto y coma.
 - **`"no-unused-vars": "warn"`**: Genera una advertencia si hay variables no utilizadas.
 - **`"no-console": "warn"`**: Genera una advertencia si se utiliza `console.log`.
+
+### Propósito
+
+Este archivo de configuración garantiza que el código sea limpio, consistente y cumpla con estándares recomendados. Ayuda a prevenir errores comunes y mejora la legibilidad y la mantenibilidad del proyecto.

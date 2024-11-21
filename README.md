@@ -79,3 +79,8 @@ Define reglas específicas para analizar el código:
 ### Propósito
 
 Este archivo de configuración garantiza que el código sea limpio, consistente y cumpla con estándares recomendados. Ayuda a prevenir errores comunes y mejora la legibilidad y la mantenibilidad del proyecto.
+
+## Despliegue
+
+[Link de la página Web](https://eduardo-inga-lopez.github.io/web-moderna/)
+

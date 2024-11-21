@@ -38,11 +38,4 @@ nav > ul > li > a {
         top: 0;
         bottom: auto;
     }
-
-    main h1 {
-        color: white; /* Asegúrate de que el título tenga un color visible */
-        font-size: 2rem; /* Ajusta el tamaño si es necesario */
-        margin-top: 20px; /* Añade un margen para separarlo del borde superior */
-        z-index: 10; /* Asegura que el título esté por encima de otros elementos */
-    }
 }

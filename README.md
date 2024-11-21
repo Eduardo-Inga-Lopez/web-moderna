@@ -21,7 +21,7 @@ En este proyecto, exploramos los conceptos clave que todo desarrollador debe con
 
 ## ESLINTRC
 
-### Explicación del Archivo de Configuración ESLint
+### Explicación del Archivo de Configuración: eslintrc.json
 
 Este archivo de configuración pertenece a **ESLint**, una herramienta que se utiliza para analizar y garantizar la calidad del código JavaScript. A continuación, se explica cada sección:
 

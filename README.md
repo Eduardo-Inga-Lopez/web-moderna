@@ -2,14 +2,14 @@
 
 ## Autor
 
-- **Nombre completo     :** Eduardo Inga López  
-- **Nombre del curso    :** CODE 201  
-- **Email               :** eduardo.inga@dagahelpdesk.com
-- **Fecha de creación   :** 20 de noviembre de 2024  
+- **Nombre :** Eduardo Inga López  
+- **Curso :** CODE 201  
+- **Email :** eduardo.inga@dagahelpdesk.com
+- **Fecha de creación :** 20 de noviembre de 2024  
 
 ## Sobre el Proyecto
 
-## Sobre la Web Moderna
+## La Web Moderna
 
 La Web Moderna es el reflejo de los avances tecnológicos y de las nuevas prácticas en el desarrollo de aplicaciones web, diseñadas para ser más rápidas, interactivas y accesibles. Este concepto abarca una serie de herramientas, técnicas y enfoques que permiten a los desarrolladores crear experiencias digitales de alta calidad adaptadas a las necesidades actuales de los usuarios.
 

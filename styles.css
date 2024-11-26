@@ -1,50 +1,159 @@
+/* Reset de márgenes y rellenos para una base limpia */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Estilos generales para el cuerpo */
 body {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f5f5f5;
 }
 
+/* Estilo para el encabezado */
+header {
+    text-align: center;
+    margin-top: 25px;
+}
+
+/* Estilo para el menú de navegación */
 nav {
     background: linear-gradient(45deg, #1bce89, #001482);
-    padding: 20px;
-    position: absolute;
+    padding: 10px 20px; /* Reduce el padding para dispositivos móviles */
     width: 100%;
-    bottom: 0;
+    top: 0; /* El menú se coloca en la parte superior */
+    position: fixed; /* El menú se mantiene fijo en la parte superior */
+    height: 50px;
 }
 
 nav > ul {
     list-style-type: none;
-    display:flex;
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en móviles */
+    padding: 0;
 }
 
 nav > ul > li > a {
     text-decoration: none;
     color: #ffffff;
-    padding: 10px;    
+    padding: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s;
 }
 
+nav > ul > li > a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Espaciado superior para el contenido principal */
 main {
     padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
 }
 
+/* Estilo de los títulos principales */
 h1 {
     text-align: center;
-    margin-top: 10px;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
 }
 
-/* 600 px */
+/* Estilo de las secciones */
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 18px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    text-align: justify;
+    width: 80%;
+}
+
+section h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+section a {
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 2%; 
+    border-radius: 5px;
+    background-color: #227edb;
+    transition: background-color 0.3s;     
+    font-size: small;
+}
+
+section a:hover {
+    background-color: #146a78;
+}
+
+
+/* Estilo para pantallas mayores a 600px */
 @media (min-width: 600px) {
     body {
         background-color: rgba(108, 223, 243, 0.388);
     }
-    
+
     nav {
         top: 0;
         bottom: auto;
+    }
+}
+
+/* Estilos adicionales para dispositivos móviles (menos de 600px) */
+@media (max-width: 600px) {
+    
+
+    /* Mejora el espaciado del menú */
+    nav {
+        padding: 10px;
+        flex-direction: column; /* Organiza los elementos de navegación en columna */
+        bottom: 0;
+        top: auto;
+        height:70px ;
+    }
+
+    nav > ul {
+        flex-direction: column; /* Organiza los elementos de navegación en columna */
+        align-items: center; /* Centra los elementos de navegación */
+    }
+
+    nav > ul > li {
+        margin: 5px 0; /* Espacio entre los elementos */
+    }
+
+    h1 {
+        font-size: 2rem; /* Reduce el tamaño del título en pantallas pequeñas */
+    }
+
+    main {
+        margin-bottom: 60px;
+    }
+
+    section {
+        padding: 15px; /* Reduce el padding para pantallas más pequeñas */
+        width: 90%; /* Ajusta el ancho de las secciones para pantallas más pequeñas */        
+    }
+
+    section h2 {
+        font-size: 1.5rem; /* Ajuste del tamaño del título en las secciones */
+    }
+
+    section p {
+        font-size: 0.9rem; /* Ajuste del tamaño del texto en las secciones */
     }
 }

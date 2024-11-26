@@ -66,7 +66,7 @@ h1 {
 
 /* Estilo de las secciones */
 section {
-    background-color: white;
+    background: radial-gradient(circle, #7edce1, #e6ebec);
     padding: 20px;
     margin-bottom: 30px;
     border-radius: 18px;
@@ -88,7 +88,7 @@ section p {
 }
 
 section a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     padding: 6px 2%; 
     border-radius: 5px;
@@ -117,6 +117,10 @@ section a:hover {
 /* Estilos adicionales para dispositivos móviles (menos de 600px) */
 @media (max-width: 600px) {
     
+    body {
+        background-color: #b5c5fcca;
+    }
+
 
     /* Mejora el espaciado del menú */
     nav {
